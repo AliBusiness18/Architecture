@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="">
+    <!-- remixicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <!-- swipper css -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="home.css">
+    <title>website home</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav countainer">
+            <a href="#" class="nav--logo">Houses</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">News</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Store</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+            <!-- toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <section class="home">
+            <div class="home__swiper swiper">
+                <div class="swiper-wrapper">
+                    <article class="home__article swiper-slide">
+                        <div class="home__data container">
+                            <h3 class="home__subtitle" data-swiper-parallax="500">Houses</h3>
+                            <h1 class="home__title" data-swiper-parallax="400">Relaxing Steep <br> Lake House</h1>
+                            <a href="#" class="home__buttom" data-swiper-parallax="300">
+                                See Project <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="assets/home-1.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+                        <div class="home__shadow"></div>
+                    </article>
+
+                    <article class="home__article swiper-slide">
+                        <div class="home__data container">
+                            <h3 class="home__subtitle" data-swiper-parallax="500">Houses</h3>
+                            <h1 class="home__title" data-swiper-parallax="400">Luxury House <br> In The Forest</h1>
+                            <a href="#" class="home__buttom" data-swiper-parallax="300">
+                                See Project <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="assets/home-2.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+                        <div class="home__shadow"></div>
+                    </article>
+
+                    <article class="home__article swiper-slide">
+                        <div class="home__data container">
+                            <h3 class="home__subtitle" data-swiper-parallax="500">Houses</h3>
+                            <h1 class="home__title" data-swiper-parallax="400">Modern House <br> On The Rock</h1>
+                            <a href="#" class="home__buttom" data-swiper-parallax="300">
+                                See Project <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="assets/home-3.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+                        <div class="home__shadow"></div>
+                    </article>
+
+                    <article class="home__article swiper-slide">
+                        <div class="home__data container">
+                            <h3 class="home__subtitle" data-swiper-parallax="500">Houses</h3>
+                            <h1 class="home__title" data-swiper-parallax="400">luxury <br> Curved House</h1>
+                            <a href="#" class="home__buttom" data-swiper-parallax="300">
+                                See Project <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="assets/home-4.jpg" alt="image" class="home__img" data-swiper-parallax="-300">
+                        <div class="home__shadow"></div>
+                    </article>
+                </div>
+            </div>
+            <div class="home__content">
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+                    <a href="https:www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://x.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Navigation buttons -->
+                <div class="swiper-navigation">
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- swiper js -->
+<script src="swiper-bundle.min.js"></script>
+<!-- home js -->
+<script src="home.js"></script>
+</body>
+</html>
